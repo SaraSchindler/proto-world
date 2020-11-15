@@ -5,6 +5,18 @@
 .main-content p {
   text-align: justify;
 }
-.project-tagline {
-  font-size: 1.8 rem;
+@media screen and (min-width: 64em) {
+ .project-tagline {
+  font-size:1.8rem
+ }
+}
+@media screen and (min-width: 42em) and (max-width: 64em) {
+ .project-tagline {
+  font-size:1.3rem
+ }
+}
+@media screen and (max-width: 42em) {
+ .project-tagline {
+  font-size:1.1rem
+ }
 }
